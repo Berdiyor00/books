@@ -1,0 +1,15 @@
+footer{
+    background-color: #FF971D;
+    padding:  31px 0;
+    .span{
+        @include for-phone{
+            display: none;
+        }
+    }
+    p{
+        color: #FFFFFF;
+        span{
+            font-weight: 500;
+        }
+    }
+}
