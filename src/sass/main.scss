@@ -108,6 +108,13 @@ button {
     text-wrap: nowrap;
 }
 
+@media (max-width: 580px) {
+    .star {
+        font-size: 15px;
+        margin-left: 10px !important;
+    }
+}
+
 @import '../layout/nav/nav.scss';
 @import '../layout/footer/footer.scss';
 @import '../components/SideBar/sideBar.scss';
