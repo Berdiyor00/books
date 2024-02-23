@@ -2,7 +2,7 @@
 const SearchBook = (props) => {
     console.log(props)
   return (
-    <div className='container text-[#fff]'>
+    <div className='container text-[#3ef18f]'>
       <div className=' absolute md:top-[60px] md:right-[90px] md:border-dashed md:border-2 md:pt-[30px] md:pl-[20px] md:pr-[20px] md:pb-[100px] md:rounded-[10px]'>
         <form className='md:w-[500px] w-[300px]  flex justify-between'>
             <input className='pl-[20px]  border-solid border-1  bg-slate-200 rounded-lg border-sky-500 h-12 w-[300px]' type="search" placeholder='# SEARCH' />
