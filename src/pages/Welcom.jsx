@@ -27,8 +27,8 @@ export default function App() {
 
             <div className='background'>
                 <div className="constainer">
-                    <div className="imgs">
-
+                    <div className="imgs">  
+                    
                <img src={Welcomeimg} alt="" className='mt-[-90px]' />
                <h2>Only Books Can Help You</h2>
                <p className='max-w-[300px] md:max-w-[100%] text-center ml-[100px] md:ml-0' >Books can help you to increase your knowledge and become more successfully.</p>
@@ -40,7 +40,6 @@ export default function App() {
         <SwiperSlide>   <div className='background'>
                 <div className="constainer">
                     <div className="imgs">
-
                <img src={ Welcomeimg2} alt="" className='mt-[-90px] imgsa' />
                <h2>Only Books Can Help You</h2>
                <p className='max-w-[300px] md:max-w-[100%] text-center ml-[100px] md:ml-0' >Books can help you to increase your knowledge and become more successfully.</p>
@@ -52,7 +51,7 @@ export default function App() {
           
             <NavLink to='/home'>
             <img src={booksimg} alt={booksimg}  className='imgback'/>
-            <div className="w-[230px] h-[55px] bg-red-400 rounded-[11px] md:ml-[110px] ml-[70px] mt-[-10px] pt-[15px]">
+            <div className="w-[230px] h-[55px] bg-red-400 rounded-[11px] md:ml-[110px] ml-[90px] mt-[-10px] pt-[15px]">
             Get Started Now
             </div>
             </NavLink>

@@ -62,9 +62,11 @@ const Login = () => {
   const inputColor = charCount < 6 ? 'red' : 'green';
 
   return (
+    <>
+    
     <div className={`bg-${inputColor}-500 w-full flex justify-center bg-orange-300 items-center h-[100vh] mt-0`}>
       <div className="container  ">
-        <NavLink to='/'>
+        <NavLink to='/home'>
 
       <button className=' absolute top-[70px] text-[28px] left-[20px] text-[#fff]' >
 <ImHome/>
@@ -139,6 +141,7 @@ const Login = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 

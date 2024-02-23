@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.drop {
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.drop__box {
+    margin-left: 110px;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.imgs {
+    display: flex;
+    border: 1px solid #000;
+}
+
+.visa {
+    width: 40px;
+    height: 15px;
+}
+
+.imgs p {
+    margin-left: 20px;
+}
+
+.imgs {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(100, 40, 202);
+    color: #fff;
+}

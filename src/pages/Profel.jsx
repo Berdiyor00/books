@@ -118,11 +118,10 @@ const validateEmail = (email) => {
   };
   const [isValidEmail, setIsValidEmail] = useState(true);
   return (
-    <div>
-
-      <div className="container  text-[#fff] bg-[#2e8862ab]">
+    <div className=' bg-[#48a17cab]'>
+      <div className="container  text-[#fff] ">
         <NavLink to='/shop'>
-<button className=' absolute z-10 md:top-[70px] top-[5px] text-[28px] left-[20px] text-[#fff]' >
+<button className=' absolute z-10 md:top-[70px] top-[5px] text-[28px]  left-[20px]  text-[#fff]' >
 <ImHome/>
 </button>
         </NavLink>
